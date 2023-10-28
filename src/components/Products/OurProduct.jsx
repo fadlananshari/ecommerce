@@ -7,7 +7,7 @@ function OurProduct() {
     <>
       <div className="py-5 container text-center">
         <h2 className="fw-bold mb-4">Our Product</h2>
-        <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 row-cols-md-3 d-flex justify-content-center justify-content-sm-start text-start">
+        <div className="row row-cols-2 row-cols-sm-2 row-cols-lg-4 row-cols-md-3 d-flex justify-content-center justify-content-sm-start text-start">
           {ProductList.map((item) => {
             return (
               <div className="col mx-auto mx-sm-0 mb-4">

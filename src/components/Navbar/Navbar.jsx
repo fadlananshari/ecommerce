@@ -24,7 +24,7 @@ function Navbar() {
               );
             })}
           </ul>
-          <ul className=" gap-4 mb-2 mb-lg-0 d-none d-sm-flex list-unstyled">
+          <ul className="gap-4 mb-2 mb-lg-0 d-none d-sm-flex list-unstyled">
             {NavbarIcons.map((item, index) => {
               return (
                 <li className={item.cName[0]} key={index}>
