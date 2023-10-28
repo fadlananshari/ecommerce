@@ -12,7 +12,7 @@ function Product({ data }) {
     backgroundsize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: '300px',
+    height: window.innerWidth > '600px' ? '300px' : '240px',
     width: '',
     display: 'flex',
     position: 'relative',
