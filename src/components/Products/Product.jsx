@@ -12,7 +12,7 @@ function Product({ data }) {
     backgroundsize: 'cover',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center',
-    height: window.innerWidth > '600px' ? '300px' : '240px',
+    height: '240px',
     width: '',
     display: 'flex',
     position: 'relative',
@@ -35,7 +35,7 @@ function Product({ data }) {
     left: 0,
     right: 0,
     bottom: 0,
-    background: 'rgba(0, 0, 0, 0.5)',
+    background: 'rgba(0, 0, 0, 0.6)',
     zIndex: 9,
   };
 
@@ -62,7 +62,7 @@ function Product({ data }) {
         </div>
       </div>
       <div style={hover} className="text-center">
-        <div className="mx-5 mx-sm-4 my-auto height-max-content top-40percent">
+        <div className="mx-1 mx-sm-4 my-auto height-max-content top-40percent">
           <a href="" className="btn text-primary bg-white fw-bold py-2 px-4 px-lg-5 mb-3 mt-1">
             Add to cart
           </a>
