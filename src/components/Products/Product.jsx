@@ -29,13 +29,13 @@ function Product({ data }) {
 
   const hover = {
     opacity: isHovered ? 1 : 0,
-    transition: 'opacity 0.5s ease',
+    transition: 'opacity 0.4s ease',
     position: 'absolute',
     top: 0,
     left: 0,
     right: 0,
     bottom: 0,
-    background: 'rgba(0, 0, 0, 0.6)',
+    background: 'rgba(0, 0, 0, 0.5)',
     zIndex: 9,
   };
 
