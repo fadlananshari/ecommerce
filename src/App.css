@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Inter&family=Oswald:wght@300;400&family=Poppins&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  --primary: #b88e2f;
+  --primary-hover: #8a6610;
+  --secondary: #fff3e3;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-secondary {
+  background-color: var(--secondary) !important;
+}
+
+.text-primary {
+  color: var(--primary) !important;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+.btn-outline-primary {
+  border: var(--primary) solid 1.5px;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--primary) !important;
+  border: var(--primary) solid 1.5px !important;
+  color: white !important;
+}
+
+.btn-outline-primary:active {
+  background-color: var(--primary) !important;
+  color: white !important;
+  border: var(--primary) solid 1.5px !important;
+}
+
+.hero {
+  background-image: url('/src/assets/hero.png');
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1,
+.hero p {
+  text-align: center;
+}
+
+.width-max-content {
+  width: max-content;
+}
+
+.height-max-content {
+  height: max-content;
+}
+
+.letter-spacing-3px {
+  letter-spacing: 3px;
+}
+
+.px-2px {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-primary:active {
+  background-color: var(--primary-hover) !important;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.top-40percent {
+  position: relative;
+  top: 40%;
+}
+
+.fs-small {
+  font-size: small;
+}
+
+
