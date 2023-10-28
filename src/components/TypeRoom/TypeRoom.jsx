@@ -13,7 +13,7 @@ function TypeRoom() {
             {TypeRoomList.map((item, index) => {
               return (
                 <div className="col text-center" key={index}>
-                  <img src={item.img} alt="" height={item.height} className='rounded'/>
+                  <img src={item.img} alt="" height={item.height} className='rounded --400px-width'/>
                   <p className={item.cName}>{item.nameRoom}</p>
                 </div>
               );

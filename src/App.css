@@ -101,4 +101,8 @@ body {
   font-size: small;
 }
 
-
+@media (max-width: 400px) {
+  .--400px-width {
+    height: 350px;
+  }
+}
